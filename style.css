@@ -1,0 +1,58 @@
+body {
+  /* background-image: url('background.jpg'); */
+  background-image: url("sfondo.jpg");
+}
+.container{
+  width: 1000px;
+  padding: 60px;
+  border-radius: 2%;
+  margin: auto;
+  margin-top: 20px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.logo{
+  width: 300px;
+}
+nav{
+  background-color: green;
+  text-align: center;
+  width: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+header{
+  text-align: center;
+  color: green;
+}
+section{
+  color: white;
+  padding: 5px 0px 0px 0;
+}
+h2.speciale{
+  display: inline-block;
+}
+div.luogo:before{
+  /* html entitie freccia */
+  content: "\27BC";
+}
+.batteria.scarico{
+  padding: 10px 30px 10px 30px;
+  background: red;
+  display: inline-block;
+  border-radius: 5px;
+}
+.batteria.medio{
+  padding: 10px 100px 10px 100px;
+  background: orange;
+  display: inline-block;
+  border-radius: 5px;
+}
+.batteria.carico{
+  padding: 10px 150px 10px 150px;
+  background: green;
+  display: inline-block;
+  border-radius: 5px;
+}
+*{
+  margin: 0;
+}
